@@ -20,5 +20,6 @@ end
 
 def find_the_cheese(array)
 array.find do 
+  cheeses.include?(item)
 end 
 end
