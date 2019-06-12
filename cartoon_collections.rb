@@ -19,8 +19,6 @@ end
 end
 
 def find_the_cheese(array)
-if array.include? "cheddar"||"gouda"||"camembert"
-  return 
-else return nil 
+array.find do 
 end 
 end
