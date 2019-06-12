@@ -19,7 +19,6 @@ end
 end
 
 def find_the_cheese(array)
-array.find do 
+array.find do |item|
   cheeses.include?(item)
-end 
 end
