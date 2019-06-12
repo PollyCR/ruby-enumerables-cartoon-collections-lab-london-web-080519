@@ -6,7 +6,7 @@ end
 
 def summon_captain_planet(calls)
 calls.collect.each do 
-  calls[i].capitalize 
+  puts calls[i].capitalize + "!"
 end 
 end
 
